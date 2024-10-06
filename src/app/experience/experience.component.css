@@ -1,0 +1,133 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#experiencia-laboral {
+	position: relative;
+	width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4.375em 10% 0;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.trabajo, .bandera {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 5px solid #ea899a;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+div.bandera {
+  display: flex;
+  text-align: center;
+}
+div.bandera p {
+  margin: 0.75em;
+  font-weight: bold;
+  color:  #ea899a;
+  font-size: 1.25em;
+}
+
+.trabajo:hover, .bandera:hover {
+  scale: 1.055;
+}
+
+div#idiomas {
+  position: relative;
+	width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div#idiomas img {
+  width: 30%;
+  height: 30%;
+}
+
+.trabajo h3,.bandera h3  {
+  color: #ea899a;
+  margin: 0;
+}
+
+.trabajo h4,.bandera h4 {
+  color: #555;
+  margin: 5px 0 15px;
+}
+
+.bandera {
+  margin-left: 1em;
+}
+
+.trabajo p, .bandera p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+@media screen and (max-width: 768px) {
+  #experiencia-laboral {
+    flex-direction: column;
+    padding: 2em 5%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  .trabajo, .bandera {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left-width: 3px;
+  }
+
+  div#idiomas {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+  }
+
+  div#idiomas img {
+    width: 30%;
+    height: auto;
+    margin-bottom: 1em;
+  }
+
+  .trabajo h3, .bandera h3 {
+    font-size: 1.2em;
+  }
+
+  .trabajo h4, .bandera h4 {
+    font-size: 1rem;
+  }
+
+  .trabajo p, .bandera p {
+    font-size: 0.9rem;
+  }
+
+  .bandera {
+    margin-left: 0;
+  }
+}
+

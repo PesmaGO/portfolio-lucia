@@ -1,0 +1,17 @@
+:root {
+  --custom-color: #ea899a;
+}
+
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1em 9%;
+  background-color: #ea899a;
+}
+
+.footer-content p{
+  font-size: 16px;
+}

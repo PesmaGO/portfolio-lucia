@@ -1,0 +1,9 @@
+div {
+  text-align: center;
+  box-shadow: 0 4px 10px rgb(245, 247, 246);
+  background-color: #fff;
+  color:#1f242d;
+  font-weight: bold;
+  font-size: 1.05em;
+  padding: 1em 1em 1em 1em;
+}
