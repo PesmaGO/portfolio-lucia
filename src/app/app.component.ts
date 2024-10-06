@@ -7,7 +7,7 @@ import Typewriter from 't-writer.js';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'portfolioIsmael';
+  title = 'portfolioLucia';
 
   ngOnInit(): void {
     const target = document.querySelector('.tw')

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "portfolioIsmael": {
+    "portfolioLucia": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/portfolio-ismael",
+            "outputPath": "dist/portfolio-lucia",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "portfolioIsmael:build:production"
+              "browserTarget": "portfolioLucia:build:production"
             },
             "development": {
-              "browserTarget": "portfolioIsmael:build:development"
+              "browserTarget": "portfolioLucia:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "portfolioIsmael:build"
+            "browserTarget": "portfolioLucia:build"
           }
         },
         "test": {
