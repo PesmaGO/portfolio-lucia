@@ -5,14 +5,14 @@
       <br>
         <div class="proyectos-grid">
             <div class="proyecto">
-              <img src="../../assets/images/EUNOIA-1.png" alt="EUNOIA" class="imagen-proyecto">
+              <img src="../../assets/images/EUNOIA-1.png" (click)="fetchAndDownloadPDF('pdf3',false)" alt="EUNOIA" class="imagen-proyecto">
                 <h3>EUNOIA</h3>
                 <br>
                 <p>E-commerce sobre totebags realizado en el último año de grado superior Comercio Internacional</p>
                 <br>
                 <p>2023-2024</p>
             </div>
-            <div class="proyecto">
+            <div class="proyecto" (click)="fetchAndDownloadPDF('pdf1',true)" role="button" tabindex="0">
                 <img src="../../assets/images/mercadona.jpg" alt="Proyecto 2" class="imagen-proyecto">
                 <h3>Trabajo de investigación</h3>
                 <br>
@@ -20,8 +20,8 @@
                 <br>
                 <p>2023-2024</p>
             </div>
-            <div class="proyecto">
-                <img src="../../assets/images/bombon-boss.png" alt="Proyecto 3" class="imagen-proyecto">
+            <div class="proyecto" (click)="fetchAndDownloadPDF('pdf2',true)" role="button" tabindex="0">
+                <img src="../../assets/images/bombon-boss (2).png" alt="Proyecto 3" class="imagen-proyecto">
                 <h3>Plan de marketing</h3>
                 <br>
                 <p>Creación de un plan de marketing para la empresa BOMBON BOSS, orientada a la expansión de sus productos en mercados internacionales</p>

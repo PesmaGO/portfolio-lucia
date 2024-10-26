@@ -17,3 +17,26 @@ body {
   background: #1f242d;
   color: #fff;
 }
+
+@keyframes show {
+  from {
+    opacity: 0;
+    transform: scale(0.25);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+img, section, div:not(.header):not(.footer-content)   {
+  view-timeline-name: --div;
+  view-timeline-axis: block;
+
+  animation-timeline: --div;
+  animation-name: show;
+
+  animation-range: entry 25% cover 30%;
+  animation-fill-mode: both;
+}

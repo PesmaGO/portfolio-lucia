@@ -14,7 +14,7 @@ export class NavbarComponent implements OnInit {
 
   toggleMenu() {
     const navbar = document.querySelector('.navbar');
-    navbar?.classList.toggle('active');  // Alternar la clase 'active'
+    navbar?.classList.toggle('active');
   }
 
 }
