@@ -30,13 +30,17 @@ body {
   }
 }
 
-img, section, div:not(.header):not(.footer-content)   {
-  view-timeline-name: --div;
-  view-timeline-axis: block;
+@media (min-width: 881px) {
+  img,
+  section,
+  div:not(.header):not(.footer-content) {
+    view-timeline-name: --div;
+    view-timeline-axis: block;
 
-  animation-timeline: --div;
-  animation-name: show;
+    animation-timeline: --div;
+    animation-name: show;
 
-  animation-range: entry 25% cover 30%;
-  animation-fill-mode: both;
+    animation-range: entry 25% cover 30%;
+    animation-fill-mode: both;
+  }
 }
