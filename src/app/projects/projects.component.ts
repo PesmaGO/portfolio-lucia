@@ -20,9 +20,9 @@ export class ProjectsComponent {
   let userConfirmed;
 
   if(!isPDF) {
-    userConfirmed = window.confirm('¿Estás seguro de que deseas abrir el vídeo?');
+    userConfirmed = window.confirm('¿Estás seguro/a de que deseas abrir el vídeo?');
   } else {
-    userConfirmed = window.confirm('¿Estás seguro de que deseas abrir el PDF?');
+    userConfirmed = window.confirm('¿Estás seguro/a de que deseas abrir el PDF?');
   }
 
   if (userConfirmed) {
