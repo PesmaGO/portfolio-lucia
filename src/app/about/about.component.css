@@ -39,8 +39,8 @@ h1 {
 }
 
 .mi-foto {
-  width: 30%;
-  height: 30%;
+  width: 25%;
+  height: 25%;
   object-fit: cover;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
@@ -57,6 +57,12 @@ h1 {
   font-size: 1.1rem;
   line-height: 1.6;
   color: #eee;
+}
+
+@media (min-width: 768px) and (max-width: 937px) {
+  .container {
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {

@@ -30,7 +30,7 @@ body {
   }
 }
 
-@media (min-width: 881px) {
+/* @media (min-width: 881px) {
   img,
   section,
   div:not(.header):not(.footer-content) {
@@ -43,4 +43,4 @@ body {
     animation-range: entry 25% cover 30%;
     animation-fill-mode: both;
   }
-}
+} */

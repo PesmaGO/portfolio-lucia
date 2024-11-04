@@ -81,6 +81,25 @@ div#idiomas img {
   color: #555;
 }
 
+@media screen and (min-width: 768px) and (max-width: 937px){
+  div#idiomas {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #experiencia-laboral {
+    margin-bottom: 2em;
+  }
+
+  #experiencia-laboral {
+    padding: 0
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   #experiencia-laboral {
     flex-direction: column;
