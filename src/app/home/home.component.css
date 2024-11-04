@@ -152,6 +152,14 @@
   }
 }
 
+
+
+@media (min-height: 406px) and (max-height: 590px) {
+  div.home-img {
+    width: 40%;
+  }
+}
+
 @media screen and (max-width: 768px) {
 
   .home {
@@ -179,8 +187,8 @@
 
   .home-img {
     margin: 2em 0;
-    width: 150px;
-    height: 150px;
+    width: 350px;
+    height: 350px;
   }
 
   .home-img img {

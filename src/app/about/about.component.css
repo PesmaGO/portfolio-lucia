@@ -65,6 +65,17 @@ h1 {
   }
 }
 
+@media (min-height: 406px) and (max-height: 590px) {
+  .container {
+    width: 100%;
+  }
+
+  .texto {
+    font-size: 0.45em;
+  }
+}
+
+
 @media (max-width: 768px) {
   #sobre-mi {
     height: auto;

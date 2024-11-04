@@ -150,3 +150,9 @@ p.item {
     font-size: 1.1em;
   }
 }
+
+@media (min-height: 406px) and (max-height: 590px) {
+ #habilidades {
+  height: 100%;
+ }
+}
